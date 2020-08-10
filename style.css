@@ -1,16 +1,93 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(./assets/background-image1.png);
+	background-position: center 200px;
+	background-position-x: right;
+	background-repeat: no-repeat;
+	padding-left: 177px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+
+}
+
+.logo {
+	padding: 23px;
+
+	padding-left: 78%;
+}
+
+.container header h1 {
+	font-size: 45px;
+	font-weight: 700;
+	text-shadow: 0px 0px 4px black;
+}
+
+.container header h4 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: grey
+}
+
+.tabular table {
+	background-color: white;
+	width: 75%;
+	border-collapse: collapse;
+
+}
+
+.tabular tr {
+	height: 40px;
+	text-align: left;
+
+}
+
+.tabular tr td,
+.tabular tr th {
+	padding-left: 20px;
+	border-bottom: 1px solid lightgray;
+
+}
+
+.tabular tr td a {
+	text-decoration: none;
+	color: #11a1d1;
+}
+
+.bowlers {
+	color: gray;
+	font-weight: 100;
+}
+
+.tabular #firstRow {
+	background-color: orangered;
+	color: white;
+	padding: 20px 0px;
+	line-height: 20px;
+
+}
+
+
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	/* position: relative;
+	top: 500px; */
+	padding-top: 40px;
+	font-size: 16px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+	letter-spacing: 0.01em;
+
 }
